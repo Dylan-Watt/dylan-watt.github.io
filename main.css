@@ -1,14 +1,20 @@
 body{
-margin: 0px;
+margin-left: 0px;
+margin-right: 0px;
 }
 
 h1{
 text-align: center;
 }
 
+main{
+  margin-left: 20px;
+  margin-right: 20px; 
+}
+
 .navbar ul{
 list-style-type: none;
-background-color: cornflowerblue;
+background-color: rgb(1, 202, 11);
 padding: 0px;
 margin: 0px;
 overflow: hidden;
@@ -33,7 +39,7 @@ float: left;
 /*style.css*/
 body{
 
-background-color:lightslategrey
+background-color:rgb(247, 248, 250)
 }
 
 img{
@@ -55,7 +61,9 @@ margin-left: 10px;
 @media only screen and (max-width: 919px) {
     .container { /* some layout rules */ }
 }
-  
-/* phones */
+  /* phones */
 @media only screen and (max-width: 400px){
-    .container } { /* some layout rules */ }
+    .container { 
+        /* some layout rules */
+    }
+}

@@ -1,0 +1,96 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+
+header h1 a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+}
+
+header h1 a:hover {
+  color: #007acc;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0.3em;
+  color: #111;
+}
+
+
+.date {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+
+h3 {
+  font-size: 1.6rem;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  color: #005f99;
+  border-bottom: 2px solid #005f99;
+  padding-bottom: 0.2em;
+}
+
+
+.section-img {
+  float: right;
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  margin: 0 0 15px 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+
+p::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1.3em;
+}
+
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  text-align: center;
+  margin: 3em 0 1em;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .section-img {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+  }
+}

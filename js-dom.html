@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>First Blog Post</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1><a href="index.html"> Back to Blog</a></h1>
+  </header>
+
+  <main>
+   <article class="post">
+  <h2>JavaScript and Its Relationship to HTML and CSS</h2>
+ <p>In this blog post i am going to talk about the relationship that HMTL and CSS have with JavaScript</p><br>
+
+<h4>I start with analogy to describe JavaScript and its relationship to HTML and CSS.</h4><br>
+ <p>Think of building a car:</p><br>
+  <ul>
+    <li><strong>HTML</strong> is the body and structure -frame, doors, windows, and seats. It gives the car its shape and layout.</li>
+    <li><strong>CSS</strong> is the paint job and styling — the colors, the design of the interior. It makes the car look appealing.</li>
+    <li><strong>JavaScript</strong> is the engine — it makes the car move, respond to input, and function interactively. Without it, the car just sits there.</li>
+  </ul>
+
+  <p>Together, they create a fully working and visually appealing website — just like a finished car that looks great and drives well.</p><br>
+
+<h4>Explain control flow and loops using an example process from everyday life</h4><br>
+
+<p>We are going to cross a street how that looks relates to control flow and loops</p><br>
+<p>we start by breaking this down into steps</p><br>
+
+<ul>
+    <li>Look both left and right</li>
+    <li>If clear then we start to cross</li>
+    <li>if you are unable you wait for the cars or obstruction to move</li>
+    <li>while you wait you keep checking to make sure its safe to cross</li>
+    <li>Once it clear cross the road</li>
+</ul><br>
+
+<p>the control flow in this is checking to make sure its clear and no cars are comming then you can cross</p>
+<p>The Loop is constantly looking left and right untill condition of crossing has been met</p><br>
+
+<h4>Describe what the DOM is and an example of how you might interact with it.</h4><br>
+<p>The DOM known as Document Object Model is a programming interface that javascript uses access and manage a documents structure. The DOM looks like a tree structure if you think of a family tree that is how the strucure is made up</p>
+<img src="DOM.png" alt="DOM tree"><br>
+
+<h4>Explain the difference between accessing data from arrays and objects.</h4><br>
+<p>Accessing data from an array uses numbers 0 - X (Programmers start counting from 0 not 1)</p>
+
+<div class="code-box">const carParts = ["engine", "wheels", "doors"];</div><br>
+<p>This is how you would remove the engine from this array</p>
+
+<div class="code-box">console.log(carParts[0])</div><br>
+
+<p>Accessing data from a Object is slightly different as it uses Keys instead of numbers</p>
+<div class="code-box">const car = {
+  make: "Toyota",
+  model: "Corolla",
+  color: "blue"
+};</div><br>
+
+<p>to pull the information form this Object you would use to below</p>
+<div class="code-box">console.log(car.make);</div><br>
+
+
+<h4>Explain what functions are and why they are helpful.</h4><br>
+  <p>Functions are a important part of javascript they are a block of code that helps preform a specific task</p>
+  
+  <div class="code-box">function greet() {
+  console.log("Hello, world!");
+}
+
+greet(); </div><br>
+
+<p>what we have here is a function that is saying when greet is used it should return hello, world!</p><br>
+
+<p>these are helpful because if you need to be able figure out something like adding money or Counting a list of cars the function can enable you to do it all at once instead off writing out the calculations over and over again</p>
+
+</article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dylan’s Blog</p>
+  </footer>
+
+</body>
+</html>

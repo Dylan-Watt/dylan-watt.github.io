@@ -125,3 +125,12 @@ main {
   margin-top: 40px;
   color: #aaa;
 }
+
+/*styling for the table */
+ table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+   width: 25%;
+      margin: auto;
+      padding: 5px;
+}
